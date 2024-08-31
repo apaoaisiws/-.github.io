@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Игра в кальмара</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./scripts/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <p>ИГР<span>А</span> В КА<span>Л</span>ЬМА<span>Р</span>А</p>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_link"><a href="#main">Главная</a></li>
+          <li class="nav_link"><a href="#about">О сериале</a></li>
+          <li class="nav_link"><a href="#otziv">Отзывы</a></li>
+          <li class="nav_link"><a href="#characters">Персонажи</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="main" class="main">
+      <div class="main_content">
+        <div class="main_text">
+          <div class="main_title">
+            <h1>
+              S<span class="pink">Q</span>UID <br />
+              G<span class="pink">A</span>M<span class="pink">E</span>
+            </h1>
+          </div>
+          <div class="main_subtitle">
+            <p>
+              Добро пожаловать на наш сайт, посвящённый популярному и
+              захватывающему сериалу
+              <span class="pink">"Игра в кальмара"</span>! Здесь вы найдете всё,
+              что нужно знать об этом феномене, который покорил сердца зрителей
+              по всему миру.
+            </p>
+            <p>
+              <span class="pink">"Игра в кальмара"</span> — это не просто шоу, а
+              настоящая социальная драма, которая перевернула представление о
+              телевидении. Завораживающий сюжет, яркие персонажи и глубокие
+              эмоциональные переживания сделали этот сериал одним из самых
+              обсуждаемых и запоминающихся в истории.
+            </p>
+            <p>
+              На нашем сайте вы сможете погрузиться в мир
+              <span class="pink">"Игры в кальмара"</span>, исследовать каждый
+              эпизод, изучить сложные взаимодействия персонажей и раскрыть
+              тайны, скрывающиеся за игрой на выживание.
+            </p>
+          </div>
+        </div>
+        <div class="main_image">
+          <img
+            src="https://i.pinimg.com/736x/4d/8c/eb/4d8cebb8fd68c41fa2a82d2d44979b50.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="about_top">
+        <h1>О сериале</h1>
+      </div>
+      <div class="about_content">
+        <div class="about_cards">
+          <div class="about_facts">
+            <div class="about_facts_title">
+              <h2>Факты</h2>
+            </div>
+            <div class="about_facts_subtitle">
+              <p class="about_facts_subtitle_text">
+                1. Сериал был придуман 13 лет назад
+              </p>
+              <p class="about_facts_subtitle_text">
+                2. Изначально должен был быть полнометражный фильм
+              </p>
+              <p class="about_facts_subtitle_text">
+                3. Персонаж Сан Ву основан на собственном прошлом режиссера
+                Хвана
+              </p>
+              <p class="about_facts_subtitle_text">
+                4. Игра в кальмара была любимой игрой детства режиссера
+              </p>
+              <p class="about_facts_subtitle_text">
+                5. Номера некоторых игроков были перепутаны
+              </p>
+              <p class="about_facts_subtitle_text">
+                6. Телефонный номер, использованный в серии, был настоящим
+                телефонным номером.
+              </p>
+            </div>
+          </div>
+          <div class="about_nominitiaes">
+            <div class="about_nominitiaes_title">
+              <h2>Награды</h2>
+            </div>
+            <div class="about_nominitiaes_subtitle">
+              <p class="about_nominitiaes_subtitle_text">
+                1. Премия Американского института киноискусства:
+                <li>Специальный приз AFI</li>
+              </p>
+              <p class="about_nominitiaes_subtitle_text">
+                2. Выбор телевизионных критиков:
+                <li>Лучший сериал на иностранном языке</li>
+              </p>
+              <p class="about_nominitiaes_subtitle_text">
+                3. Critics’ Choice Super Awards:
+                <li>Лучший боевик</li>
+              </p>
+              <p class="about_nominitiaes_subtitle_text">
+                4. People’s Choice Awards:
+                <li>Самое успешное шоу 2021 года</li>
+              </p>
+              <p class="about_nominitiaes_subtitle_text">
+                3. Спутник:
+                <li>Лучший телевизионный сериал — драма</li>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="about_video">
+          <h1>Посмотрите трейлер</h1>
+          <button class="about_btn">Посмотреть</button>
+        </div>
+      </div>
+      <div class="modal-canvas hidden">
+        <div class="modal">
+          <div class="modal-close">
+            <span>Закрыть x</span>
+          </div>
+          <div class="modal-text">
+            <h5>Трейлер</h5>
+          </div>
+          <div class="video_container">
+            <iframe
+              width="1500"
+              height="415"
+              src="https://www.youtube.com/embed/ef0IPK9lljw?si=E2ie59jxSkOOQEx3"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="otzivi" id="otziv">
+      <div class="otzivi_top">
+        <h1>Отзывы</h1>
+      </div>
+      <div class="otzivi_content">
+        <div class="otzivi_container">
+          <div class="otziv">
+            <img
+              src="https://i2020.otzovik.com/2020/11/avatar/34468473.jpeg?ceb3"
+              alt=""
+              class="otziv_photo"
+            />
+            <div class="otziv_content">
+              <p class="otziv_text">
+                Наверное почти все слышали об этом нашумевшем сериале. Давно
+                хотел посмотреть, но только сейчас получилось посмотреть. Это
+                конечно все индивидуально, но лично я испытал кучу эмоций. Очень
+                проникаешься судьбой героев и переживаешь. Очень много схожих...
+                <p class="otziv_text"><span class="bold">Достоинства:</span> Меня очень затянул.</p> 
+                <p class="otziv_text"><span class="bold">Недостатки:</span> Жестковат местами.</p>
+              </p>
+              <p class="otziv_author">Михаил Бессонов</p>
+            </div>
+          </div>
+          <div class="otziv">
+            <img src="https://i2024.otzovik.com/2024/08/avatar/5197770.jpeg?3c39"
+             alt="" 
+             class="otziv_photo">
+             <div class="otziv_content">
+             <p class="otziv_text">Всем здравствуйте! Игры, где ставка это жизнь давно перестали удивлять зрителя и превратились в слабый сценарный ход. Сериал про смертельную игру, где много участников, правила из детских игр, поля боевых действий, гору трупов и всё...
+              <p class="otziv_text"><span class="bold">Достоинства:</span> Зрелищно, игра актёров, интресные задания, музыкальное сопровождение, интригует.</p>
+              <p class="otziv_text"><span class="bold">Недостатки:</span> Затянут, концовка.</p>
+            </p>
+            <p class="otziv_author">Ольга Цезаревна</p>
+            </div>
+          </div>
+          <div class="otziv">
+            <img src="https://thumbs.filmix.fm/fotos/foto_408334.jpg" alt="" class="otziv_photo">
+            <div class="otziv_content">
+              <p class="otziv_text">
+                Что могу сказать о сериале, признанным лучшим в 2021 году, после просмотра остались противоречивые чувства, с одной 
+                стороны оригинальный сюжет, приличные декорации и постановка, масштабность, неплохая актерская игра, с другой - есть
+                 затянутые сцены и ненужные диалоги, к примеру во 2 и 9 серии. 7,5 из 10.
+               </p>
+               <p class="otziv_author">Иван Припов</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="characters" id="characters">
+<div class="characters_top">
+  <h1>Пе<span class="pink">рсо</span>наж<span class="pink">и</span></h1>
+</div>
+<div class="characters_content">
+  <div class="characters_column1">
+    <div class="character ">
+      <div class="character_image">
+        <img src="https://www.kino-teatr.ru/acter/photo/7/4/457047/1181486.jpg" alt="">
+      </div>
+      <div class="character_title">
+        <h3>Ли Джон Джэ</h3>
+      </div>
+      <div class="character_text">
+        <h4>Ки Хун</h4>
+      </div>
+    </div>
+    <div class="character ">
+      <div class="character_image">
+        <img src="https://www.kino-teatr.ru/acter/photo/7/4/596347/1181491.jpg" alt="">
+      </div>
+      <div class="character_title">
+        <h3>Ви Ха Джун</h3>
+      </div>
+      <div class="character_text">
+        <h4>Джун Хо</h4>
+      </div>
+    </div>
+    <div class="character ">
+      <div class="character_image">
+        <img src="https://n1s1.hsmedia.ru/c7/4d/c6/c74dc6881bedd68468e91200cbd10257/1121x1127_0xac120003_10122768371647605656.jpeg" alt="">
+      </div>
+      <div class="character_title">
+        <h3> Чон Хо Ён</h3>
+      </div>
+      <div class="character_text">
+        <h4>Сэ Бёк </h4>
+      </div>
+    </div>
+    <div class="character ">
+      <div class="character_image">
+        <img src="https://www.kino-teatr.ru/acter/foto/asia/596350.jpg" alt="">
+      </div>
+      <div class="character_title">
+        <h3>
+          Хо Сон Тхэ</h3>
+      </div>
+      <div class="character_text">
+        <h4>Док Су</h4>
+      </div>
+    </div>
+  </div>
+  <div class="characters_column2">
+    <div class="character ">
+      <div class="character_image">
+        <img src="https://doramy.club/wp-content/uploads/2021/11/pak-xe-su-2.jpg" alt="">
+      </div>
+      <div class="character_title">
+        <h3>Пак Хэ Су</h3>
+      </div>
+      <div class="character_text">
+        <h4>Сан У</h4>
+      </div>
+    </div>
+    <div class="character ">
+      <div class="character_image">
+        <img src="https://www.kino-teatr.ru/acter/foto/asia/544479.jpg" alt="">
+      </div>
+      <div class="character_title">
+        <h3>Ким Джу Рён</h3>
+      </div>
+      <div class="character_text">
+        <h4>Ми Рён</h4>
+      </div>
+    </div>
+    <div class="character ">
+      <div class="character_image">
+        <img src="https://www.kino-teatr.ru/acter/foto/asia/608377.jpg" alt="">
+      </div>
+      <div class="character_title">
+        <h3>Анупам Трипатхи</h3>
+      </div>
+      <div class="character_text">
+        <h4>Али Абдул</h4>
+      </div>
+    </div>
+    <div class="character ">
+      <div class="character_image">
+        <img src="https://www.kino-teatr.ru/acter/foto/asia/51977.jpg" alt="">
+      </div>
+      <div class="character_title">
+        <h3>О Ен Су</h3>
+      </div>
+      <div class="character_text">
+        <h4>О Иль Нам</h4>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+    
+    <footer class="footer">
+      <div class="footer_content">
+        <div class="footer_section about_site">
+          <h2>О сайте</h2>
+          <p>
+            Мы рады приветствовать вас на сайте, посвященном популярному сериалу <span class="pink">"Игра в кальмара"</span>. Здесь вы найдете интересную информацию, обзоры и последние новости о сериале.
+          </p>
+        </div>
+        <div class="footer_section contact_info">
+          <h2>Контакты</h2>
+          <p>
+            Email: <a href="mailto:info@gameofcalamari.com">info@squidgame.com</a><br />
+            Телефон: +1 (123) 456-7890
+          </p>
+        </div>
+        <div class="footer_section social_media">
+          <h2>Мы в соцсетях</h2>
+          <ul class="social_links">
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <p>&copy; 2024 Все права защищены. Сайт создан с любовью к <span class="pink">"Игре в кальмара"</span>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
